@@ -1,6 +1,6 @@
 # Pi Finder
 
-[![Tests](https://github.com/Nathani21/Pi_Finder/actions/workflows/tests.yml/badge.svg)](https://github.com/Nathani21/Pi_Finder/actions/workflows/tests.yml)
+[![Tests](https://github.com/Nathani21/pi-finder-gui/actions/workflows/tests.yml/badge.svg)](https://github.com/Nathani21/pi-finder-gui/actions/workflows/tests.yml)
 
 A Python desktop app that searches the digits of pi for hidden patterns: numbers, words, pixel pictures and shapes.
 
@@ -25,7 +25,7 @@ A Python desktop app that searches the digits of pi for hidden patterns: numbers
 - At grid width 100, an all-black 3x3 square appears 1,837 times, and a 5x5 never does
 
 ## Download (Windows)
-1. Go to the [latest release](https://github.com/Nathani21/Pi_Finder/releases/latest)
+1. Go to the [latest release](https://github.com/Nathani21/pi-finder-gui/releases/latest)
 2. Download `PiFinder.exe` and double-click it
 3. Wait a few seconds for the digits to load, then search!
 
