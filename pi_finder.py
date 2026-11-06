@@ -5,7 +5,15 @@ import threading
 import tkinter as tk
 from tkinter import ttk
 
+import os
 import sys
+
+
+def resource_path(relative_path):
+    """Find a bundled file both when running the script and inside the PyInstaller exe."""
+    base = getattr(sys, "_MEIPASS", os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base, relative_path)
+
 sys.set_int_max_str_digits(0)  # 0 = no limit
 
 CONTEXT = 150  # digits shown on each side of a match
@@ -409,5 +417,10 @@ class PiFinderApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
+    try:
+        # default= applies the icon to every window, including the pixel and shape windows
+        root.iconbitmap(default=resource_path(os.path.join("assets", "icon.ico")))
+    except tk.TclError:
+        pass  # a missing icon should never stop the app
     PiFinderApp(root)
     root.mainloop()
