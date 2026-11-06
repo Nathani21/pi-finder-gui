@@ -26,7 +26,7 @@ A Python desktop app that searches the digits of pi for hidden patterns: numbers
 
 ## Download (Windows)
 1. Go to the [latest release](https://github.com/Nathani21/pi-finder-gui/releases/latest)
-2. Download `PiFinder.exe` and double-click it
+2. Download `pi_finder.exe` and double-click it
 3. Wait a few seconds for the digits to load, then search!
 
 Windows may warn that it "protected your PC" because the app isn't code-signed. Click **More info**, then **Run anyway**.

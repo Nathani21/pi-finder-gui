@@ -19,7 +19,7 @@ sys.set_int_max_str_digits(0)  # 0 = no limit
 CONTEXT = 150  # digits shown on each side of a match
 DIGITS = 1_000_000
 
-__version__ = "1.1.0"
+__version__ = "1.2.0"
 
 def find_all(digits, sequence):
     """Return every start index of sequence in digits (overlaps allowed)."""
