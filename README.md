@@ -37,6 +37,8 @@ Windows may warn that it "protected your PC" because the app isn't code-signed. 
 3. Open the unzipped folder, type `cmd` in the folder's address bar, press Enter
 4. Run: `python pi_finder.py`
 
+No extra packages are needed: Pi Finder uses only Python's standard library.
+
 ## Run the tests
 Install pytest, then run it from the project folder:
 
@@ -44,3 +46,6 @@ Install pytest, then run it from the project folder:
 pip install pytest
 python -m pytest
 ```
+
+## License
+MIT. See [LICENSE](LICENSE).
