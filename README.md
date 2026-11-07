@@ -38,3 +38,9 @@ Windows may warn that it "protected your PC" because the app isn't code-signed. 
 4. Run: `python pi_finder.py`
 
 ## Run the tests
+Install pytest, then run it from the project folder:
+
+```
+pip install pytest
+python -m pytest
+```
